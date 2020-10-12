@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{72285B00-D5CE-1B0D-D576-86C39FD14300}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_4_1;UNITY_3_4;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_OSX;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Avatar.js" />
+     <Compile Include="Assets\Board.js" />
+     <Compile Include="Assets\Board\P1\P1W1SA.js" />
+     <Compile Include="Assets\Board\P1\P1W1SB.js" />
+     <Compile Include="Assets\Board\P1\P1W2SA.js" />
+     <Compile Include="Assets\Board\P1\P1W2SB.js" />
+     <Compile Include="Assets\Board\P1\P1W3SA.js" />
+     <Compile Include="Assets\Board\P1\P1W3SB.js" />
+     <Compile Include="Assets\Board\P10\P10W1SA.js" />
+     <Compile Include="Assets\Board\P10\P10W1SB.js" />
+     <Compile Include="Assets\Board\P10\P10W2SA.js" />
+     <Compile Include="Assets\Board\P10\P10W2SB.js" />
+     <Compile Include="Assets\Board\P10\P10W3SA.js" />
+     <Compile Include="Assets\Board\P10\P10W3SB.js" />
+     <Compile Include="Assets\Board\P11\P11W1SA.js" />
+     <Compile Include="Assets\Board\P11\P11W1SB.js" />
+     <Compile Include="Assets\Board\P11\P11W2SA.js" />
+     <Compile Include="Assets\Board\P11\P11W2SB.js" />
+     <Compile Include="Assets\Board\P11\P11W3SA.js" />
+     <Compile Include="Assets\Board\P11\P11W3SB.js" />
+     <Compile Include="Assets\Board\P12\P12W1SA.js" />
+     <Compile Include="Assets\Board\P12\P12W1SB.js" />
+     <Compile Include="Assets\Board\P12\P12W2SA.js" />
+     <Compile Include="Assets\Board\P12\P12W2SB.js" />
+     <Compile Include="Assets\Board\P12\P12W3SA.js" />
+     <Compile Include="Assets\Board\P12\P12W3SB.js" />
+     <Compile Include="Assets\Board\P13\P13W1SA.js" />
+     <Compile Include="Assets\Board\P13\P13W1SB.js" />
+     <Compile Include="Assets\Board\P13\P13W2SA.js" />
+     <Compile Include="Assets\Board\P13\P13W2SB.js" />
+     <Compile Include="Assets\Board\P13\P13W3SA.js" />
+     <Compile Include="Assets\Board\P13\P13W3SB.js" />
+     <Compile Include="Assets\Board\P14\P14W1SA.js" />
+     <Compile Include="Assets\Board\P14\P14W1SB.js" />
+     <Compile Include="Assets\Board\P14\P14W2SA.js" />
+     <Compile Include="Assets\Board\P14\P14W2SB.js" />
+     <Compile Include="Assets\Board\P14\P14W3SA.js" />
+     <Compile Include="Assets\Board\P14\P14W3SB.js" />
+     <Compile Include="Assets\Board\P15\P15W1SA.js" />
+     <Compile Include="Assets\Board\P15\P15W1SB.js" />
+     <Compile Include="Assets\Board\P15\P15W2SA.js" />
+     <Compile Include="Assets\Board\P15\P15W2SB.js" />
+     <Compile Include="Assets\Board\P15\P15W3SA.js" />
+     <Compile Include="Assets\Board\P15\P15W3SB.js" />
+     <Compile Include="Assets\Board\P16\P16W1SA.js" />
+     <Compile Include="Assets\Board\P16\P16W1SB.js" />
+     <Compile Include="Assets\Board\P16\P16W2SA.js" />
+     <Compile Include="Assets\Board\P16\P16W2SB.js" />
+     <Compile Include="Assets\Board\P16\P16W3SA.js" />
+     <Compile Include="Assets\Board\P16\P16W3SB.js" />
+     <Compile Include="Assets\Board\P17\P17W1SA.js" />
+     <Compile Include="Assets\Board\P17\P17W1SB.js" />
+     <Compile Include="Assets\Board\P17\P17W2SA.js" />
+     <Compile Include="Assets\Board\P17\P17W2SB.js" />
+     <Compile Include="Assets\Board\P17\P17W3SA.js" />
+     <Compile Include="Assets\Board\P17\P17W3SB.js" />
+     <Compile Include="Assets\Board\P18\P18W1SA.js" />
+     <Compile Include="Assets\Board\P18\P18W1SB.js" />
+     <Compile Include="Assets\Board\P18\P18W2SA.js" />
+     <Compile Include="Assets\Board\P18\P18W2SB.js" />
+     <Compile Include="Assets\Board\P18\P18W3SA.js" />
+     <Compile Include="Assets\Board\P18\P18W3SB.js" />
+     <Compile Include="Assets\Board\P19\P19W1SA.js" />
+     <Compile Include="Assets\Board\P19\P19W1SB.js" />
+     <Compile Include="Assets\Board\P19\P19W2SA.js" />
+     <Compile Include="Assets\Board\P19\P19W2SB.js" />
+     <Compile Include="Assets\Board\P19\P19W3SA.js" />
+     <Compile Include="Assets\Board\P19\P19W3SB.js" />
+     <Compile Include="Assets\Board\P2\P2W1SA.js" />
+     <Compile Include="Assets\Board\P2\P2W1SB.js" />
+     <Compile Include="Assets\Board\P2\P2W2SA.js" />
+     <Compile Include="Assets\Board\P2\P2W2SB.js" />
+     <Compile Include="Assets\Board\P2\P2W3SA.js" />
+     <Compile Include="Assets\Board\P2\P2W3SB.js" />
+     <Compile Include="Assets\Board\P3\P3W1SA.js" />
+     <Compile Include="Assets\Board\P3\P3W1SB.js" />
+     <Compile Include="Assets\Board\P3\P3W2SA.js" />
+     <Compile Include="Assets\Board\P3\P3W2SB.js" />
+     <Compile Include="Assets\Board\P3\P3W3SA.js" />
+     <Compile Include="Assets\Board\P3\P3W3SB.js" />
+     <Compile Include="Assets\Board\P4\P4W1SA.js" />
+     <Compile Include="Assets\Board\P4\P4W1SB.js" />
+     <Compile Include="Assets\Board\P4\P4W2SA.js" />
+     <Compile Include="Assets\Board\P4\P4W2SB.js" />
+     <Compile Include="Assets\Board\P4\P4W3SA.js" />
+     <Compile Include="Assets\Board\P4\P4W3SB.js" />
+     <Compile Include="Assets\Board\P5\P5W1SA.js" />
+     <Compile Include="Assets\Board\P5\P5W1SB.js" />
+     <Compile Include="Assets\Board\P5\P5W2SA.js" />
+     <Compile Include="Assets\Board\P5\P5W2SB.js" />
+     <Compile Include="Assets\Board\P5\P5W3SA.js" />
+     <Compile Include="Assets\Board\P5\P5W3SB.js" />
+     <Compile Include="Assets\Board\P6\P6W1SA.js" />
+     <Compile Include="Assets\Board\P6\P6W1SB.js" />
+     <Compile Include="Assets\Board\P6\P6W2SA.js" />
+     <Compile Include="Assets\Board\P6\P6W2SB.js" />
+     <Compile Include="Assets\Board\P6\P6W3SA.js" />
+     <Compile Include="Assets\Board\P6\P6W3SB.js" />
+     <Compile Include="Assets\Board\P7\P7W1SA.js" />
+     <Compile Include="Assets\Board\P7\P7W1SB.js" />
+     <Compile Include="Assets\Board\P7\P7W2SA.js" />
+     <Compile Include="Assets\Board\P7\P7W2SB.js" />
+     <Compile Include="Assets\Board\P7\P7W3SA.js" />
+     <Compile Include="Assets\Board\P7\P7W3SB.js" />
+     <Compile Include="Assets\Board\P8\P8W1SA.js" />
+     <Compile Include="Assets\Board\P8\P8W1SB.js" />
+     <Compile Include="Assets\Board\P8\P8W2SA.js" />
+     <Compile Include="Assets\Board\P8\P8W2SB.js" />
+     <Compile Include="Assets\Board\P8\P8W3SA.js" />
+     <Compile Include="Assets\Board\P8\P8W3SB.js" />
+     <Compile Include="Assets\Board\P9\P9W1SA.js" />
+     <Compile Include="Assets\Board\P9\P9W1SB.js" />
+     <Compile Include="Assets\Board\P9\P9W2SA.js" />
+     <Compile Include="Assets\Board\P9\P9W2SB.js" />
+     <Compile Include="Assets\Board\P9\P9W3SA.js" />
+     <Compile Include="Assets\Board\P9\P9W3SB.js" />
+     <Compile Include="Assets\Cameras\InvertCamera.js" />
+     <Compile Include="Assets\Cameras\SwitchCameras.js" />
+     <Compile Include="Assets\Columns\Column1.js" />
+     <Compile Include="Assets\Columns\Column2.js" />
+     <Compile Include="Assets\Gate.js" />
+     <Compile Include="Assets\Levels config\L10_config.js" />
+     <Compile Include="Assets\Levels config\L10_config_old.js" />
+     <Compile Include="Assets\Levels config\L11_config.js" />
+     <Compile Include="Assets\Levels config\L12_config.js" />
+     <Compile Include="Assets\Levels config\L13_config.js" />
+     <Compile Include="Assets\Levels config\L14_config.js" />
+     <Compile Include="Assets\Levels config\L15_config.js" />
+     <Compile Include="Assets\Levels config\L16_config.js" />
+     <Compile Include="Assets\Levels config\L17_config.js" />
+     <Compile Include="Assets\Levels config\L18_config.js" />
+     <Compile Include="Assets\Levels config\L19_config.js" />
+     <Compile Include="Assets\Levels config\L1_config.js" />
+     <Compile Include="Assets\Levels config\L20_config.js" />
+     <Compile Include="Assets\Levels config\L2_config.js" />
+     <Compile Include="Assets\Levels config\L3_config.js" />
+     <Compile Include="Assets\Levels config\L4_config.js" />
+     <Compile Include="Assets\Levels config\L4_config_old.js" />
+     <Compile Include="Assets\Levels config\L5_config.js" />
+     <Compile Include="Assets\Levels config\L5_config_old.js" />
+     <Compile Include="Assets\Levels config\L6_config.js" />
+     <Compile Include="Assets\Levels config\L6_config_old.js" />
+     <Compile Include="Assets\Levels config\L7_config.js" />
+     <Compile Include="Assets\Levels config\L7_config_old.js" />
+     <Compile Include="Assets\Levels config\L8_config.js" />
+     <Compile Include="Assets\Levels config\L8_config_old.js" />
+     <Compile Include="Assets\Levels config\L9_config.js" />
+     <Compile Include="Assets\Levels config\L9_config_old.js" />
+     <Compile Include="Assets\SplashScreenScript\SplashScreenControl.js" />
+     <None Include="Assets\self_illuminated_outlined_diffuse_113.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	

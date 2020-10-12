@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{E20973F3-250D-5F38-EDD3-4C0C32BAA3AC}") = "TheAscentUnity - PFM - alhondigas", "Assembly-UnityScript.unityproj", "{72285B00-D5CE-1B0D-D576-86C39FD14300}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72285B00-D5CE-1B0D-D576-86C39FD14300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72285B00-D5CE-1B0D-D576-86C39FD14300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72285B00-D5CE-1B0D-D576-86C39FD14300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72285B00-D5CE-1B0D-D576-86C39FD14300}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal
