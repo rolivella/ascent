@@ -2,7 +2,8 @@
 
 ## Català
 
-Codi font del projecte final "Ascent" del Màster en Arts Digitals de la UPF, edició 2010. 
+Codi font del projecte final "Ascent" del Màster en Arts Digitals de la UPF tutoritzat per Óliver Pérez Latorre
+, edició 2010. 
 
 Ascent és un videojoc tipus plataformes isomètriques amb elements de puzzle. El jugador controla un avatar el qual està pujant permanentment des del seu punt de vista per una escala infinita. Els graons de l'escala estan repartits uniformement per tot l'espai de tal manera que des del punt de vista del jugador es poden percebre de dues maneres diferents. El repte principal del jugador és doncs percebre correctament els graons de l'escala per a poder pujar-los i així anar completant cada nivell.   
 
