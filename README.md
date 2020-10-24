@@ -1,4 +1,4 @@
-# ASCENT
+# ASCENT (Novembre 2011)
 
 ## Català
 
