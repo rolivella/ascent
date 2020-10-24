@@ -13,3 +13,7 @@ Ascent és un expressive game amb l'objectiu principal de transmetre la idea de 
 Ascent es un videojuego tipo plataformas isométricas con elementos de puzzle. El jugador controla un avatar el cual está subiendo permanentemente desde su punto de vista por una escalera infinita. Los peldaños de la escalera están repartidos uniformemente por todo el espacio de tal manera que desde el punto de vista del jugador se pueden percibir de dos maneras distintas. El reto principal del jugador es pues lograr percibir correctamente los peldaños de dicha escalera para poder subirlos y así ir completando cada nivel. 
 
 Ascent es un expressive game cuyo objetivo principal es transmitir la idea de que para ascender, entendiendo la palabra 'ascender' por cualquier de sus posibles acepciones, es necesaria una correcta percepción de la realidad. 
+
+## Crèdits
+
+[Roger Olivella](http://bifur.cat)
