@@ -20,6 +20,5 @@ Ascent es un expressive game cuyo objetivo principal es transmitir la idea de qu
 
 ## Project webiste
 
-Made by [Xeito Fole](https://nontenxeito.net)
-
 [ascent-website.zip](https://github.com/rolivella/ascent/files/8825433/ascent-website.zip)
+made by [Xeito Fole](https://nontenxeito.net)
