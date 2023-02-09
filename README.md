@@ -16,7 +16,7 @@ Ascent es un expressive game cuyo objetivo principal es transmitir la idea de qu
 
 ## Crèdits
 
-[Roger Olivella](http://bifur.cat)
+[Roger Olivella](https://rolivella.github.io/)
 
 ## Project webiste
 
